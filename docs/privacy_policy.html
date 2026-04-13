@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kotobi Privacy Policy</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --bg: #f7f4ec;
+        --panel: #fffdf8;
+        --text: #1d2430;
+        --muted: #5d6675;
+        --accent: #3a5f95;
+        --border: #d8d5cc;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        background: linear-gradient(180deg, #f4efe2 0%, var(--bg) 100%);
+        color: var(--text);
+      }
+
+      main {
+        max-width: 860px;
+        margin: 0 auto;
+        padding: 40px 20px 64px;
+      }
+
+      .card {
+        background: var(--panel);
+        border: 1px solid var(--border);
+        border-radius: 20px;
+        padding: 24px;
+        box-shadow: 0 10px 30px rgba(29, 36, 48, 0.06);
+      }
+
+      h1,
+      h2,
+      h3 {
+        margin: 0 0 12px;
+      }
+
+      h1 {
+        font-size: 2rem;
+      }
+
+      h2 {
+        font-size: 1.15rem;
+        margin-top: 28px;
+      }
+
+      h3 {
+        font-size: 1rem;
+        margin-top: 20px;
+      }
+
+      p,
+      li {
+        line-height: 1.65;
+        color: var(--muted);
+      }
+
+      a {
+        color: var(--accent);
+      }
+
+      ul {
+        padding-left: 20px;
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 12px 0 4px;
+      }
+
+      th,
+      td {
+        border: 1px solid var(--border);
+        padding: 10px 12px;
+        text-align: left;
+        vertical-align: top;
+        color: var(--muted);
+      }
+
+      th {
+        color: var(--text);
+        background: #f3f0e7;
+      }
+
+      .tag {
+        display: inline-block;
+        margin-bottom: 12px;
+        padding: 6px 10px;
+        border-radius: 999px;
+        background: #e6eefc;
+        color: var(--accent);
+        font-size: 0.85rem;
+        font-weight: 600;
+      }
+
+      .summary {
+        padding: 14px 16px;
+        border: 1px solid var(--border);
+        border-radius: 14px;
+        background: #faf7f0;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="card">
+        <div class="tag">Kotobi Privacy Policy</div>
+        <h1>Privacy Policy</h1>
+        <p><strong>Effective date:</strong> April 2, 2026</p>
+        <p><strong>Developer:</strong> Xiaofeng Lei</p>
+
+        <h2>1. Overview</h2>
+        <p>
+          Kotobi is an AI-powered Japanese learning app. This policy explains
+          what data the app collects, how it is used, and your rights as a user.
+        </p>
+        <div class="summary">
+          <p>
+            <strong>Summary:</strong> Kotobi stores your study data locally on
+            your device. It does not operate its own user-data servers, does
+            not require an account, and does not sell or share personal data,
+            except when you explicitly use AI features that send content to the
+            AI provider you configure.
+          </p>
+        </div>
+
+        <h2>2. Data We Collect and How We Use It</h2>
+
+        <h3>2.1 Data stored only on your device</h3>
+        <table>
+          <thead>
+            <tr>
+              <th>Data</th>
+              <th>Purpose</th>
+              <th>Stored</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Imported PDF and audio files</td>
+              <td>Source material for sentence extraction and study</td>
+              <td>On-device only</td>
+            </tr>
+            <tr>
+              <td>Extracted sentences and study cards</td>
+              <td>Learning content</td>
+              <td>On-device database</td>
+            </tr>
+            <tr>
+              <td>Study progress and review history</td>
+              <td>Spaced repetition scheduling and progress tracking</td>
+              <td>On-device database</td>
+            </tr>
+            <tr>
+              <td>Audio recordings you make</td>
+              <td>Speaking practice and transcription on request</td>
+              <td>On-device; deleted after transcription workflow</td>
+            </tr>
+            <tr>
+              <td>AI API keys</td>
+              <td>Authenticate requests to the AI provider you choose</td>
+              <td>Stored locally on device</td>
+            </tr>
+            <tr>
+              <td>App settings and preferences</td>
+              <td>Language, provider choice, notifications, and study settings</td>
+              <td>On-device only</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h3>2.2 Data sent to third-party AI services</h3>
+        <p>
+          When you use AI features, the following data is sent directly to the
+          AI provider whose API key or server you configure. Kotobi does not
+          operate a server that proxies or stores this data.
+        </p>
+        <table>
+          <thead>
+            <tr>
+              <th>Feature</th>
+              <th>Data sent</th>
+              <th>Recipient</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Card generation</td>
+              <td>Japanese sentence text and related prompt content</td>
+              <td>OpenAI or DeepSeek, depending on user configuration</td>
+            </tr>
+            <tr>
+              <td>Speaking practice</td>
+              <td>Audio recording and generated transcript/feedback prompt data</td>
+              <td>Configured AI provider</td>
+            </tr>
+            <tr>
+              <td>AI connection test</td>
+              <td>Short test request</td>
+              <td>Configured AI provider</td>
+            </tr>
+          </tbody>
+        </table>
+        <p>Provider privacy policies:</p>
+        <ul>
+          <li>
+            OpenAI:
+            <a href="https://openai.com/policies/privacy-policy">openai.com/policies/privacy-policy</a>
+          </li>
+          <li>
+            DeepSeek:
+            <a href="https://platform.deepseek.com/downloads/DeepSeek%20Privacy%20Policy.pdf">platform.deepseek.com/downloads/DeepSeek%20Privacy%20Policy.pdf</a>
+          </li>
+        </ul>
+
+        <h3>2.3 Local AI server</h3>
+        <p>
+          If you configure a local AI server on your own network, data is sent
+          only to that server.
+        </p>
+
+        <h2>3. Permissions</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Permission / Access</th>
+              <th>Why it is needed</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Microphone</td>
+              <td>To record your voice for speaking practice</td>
+            </tr>
+            <tr>
+              <td>Internet</td>
+              <td>To reach AI APIs and optional local AI server endpoints</td>
+            </tr>
+            <tr>
+              <td>Local Network</td>
+              <td>To connect to a local AI server and support Wi-Fi file transfer</td>
+            </tr>
+            <tr>
+              <td>Notifications</td>
+              <td>To send scheduled study reminders when enabled by the user</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h2>4. Data We Do Not Collect</h2>
+        <ul>
+          <li>We do not require user accounts.</li>
+          <li>We do not run analytics, advertising SDKs, or tracking tools.</li>
+          <li>We do not sell personal data.</li>
+          <li>We do not store study data on Kotobi-operated servers.</li>
+        </ul>
+
+        <h2>5. Data Retention and Deletion</h2>
+        <p>
+          Your data remains on your device unless you send content to an AI
+          provider you configured. You can delete data by removing books or
+          cards in the app, deleting app data, or uninstalling the app.
+        </p>
+
+        <h2>6. Children’s Privacy</h2>
+        <p>
+          Kotobi is not directed to children under 13, and we do not knowingly
+          collect personal data from children under 13.
+        </p>
+
+        <h2>7. Changes to This Policy</h2>
+        <p>
+          If this policy changes materially, the effective date on this page
+          will be updated.
+        </p>
+
+        <h2>8. Contact</h2>
+        <p>
+          If you have questions about this privacy policy, contact
+          <a href="mailto:xiaofeng.lei.bj@gmail.com">xiaofeng.lei.bj@gmail.com</a>.
+        </p>
+
+        <h2>9. App Scope</h2>
+        <p>
+          This policy applies to Kotobi on iPhone / iOS and may also be used
+          for the same app on other supported platforms where the same privacy
+          practices apply.
+        </p>
+      </div>
+    </main>
+  </body>
+</html>
