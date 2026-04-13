@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kotobi Support</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --bg: #f7f4ec;
+        --panel: #fffdf8;
+        --text: #1d2430;
+        --muted: #5d6675;
+        --accent: #3a5f95;
+        --border: #d8d5cc;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        background: linear-gradient(180deg, #f4efe2 0%, var(--bg) 100%);
+        color: var(--text);
+      }
+
+      main {
+        max-width: 760px;
+        margin: 0 auto;
+        padding: 40px 20px 64px;
+      }
+
+      .card {
+        background: var(--panel);
+        border: 1px solid var(--border);
+        border-radius: 20px;
+        padding: 24px;
+        box-shadow: 0 10px 30px rgba(29, 36, 48, 0.06);
+      }
+
+      h1,
+      h2 {
+        margin: 0 0 12px;
+      }
+
+      h1 {
+        font-size: 2rem;
+      }
+
+      h2 {
+        font-size: 1.1rem;
+        margin-top: 28px;
+      }
+
+      p,
+      li {
+        line-height: 1.6;
+        color: var(--muted);
+      }
+
+      a {
+        color: var(--accent);
+      }
+
+      ul {
+        padding-left: 20px;
+      }
+
+      .meta {
+        display: grid;
+        grid-template-columns: 150px 1fr;
+        gap: 10px 16px;
+        margin-top: 24px;
+      }
+
+      .meta strong {
+        color: var(--text);
+      }
+
+      .hero {
+        margin-bottom: 20px;
+      }
+
+      .tag {
+        display: inline-block;
+        margin-bottom: 12px;
+        padding: 6px 10px;
+        border-radius: 999px;
+        background: #e6eefc;
+        color: var(--accent);
+        font-size: 0.85rem;
+        font-weight: 600;
+      }
+
+      @media (max-width: 560px) {
+        .meta {
+          grid-template-columns: 1fr;
+          gap: 6px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="card">
+        <div class="hero">
+          <div class="tag">Kotobi Support</div>
+          <h1>Support for Kotobi</h1>
+          <p>
+            Kotobi helps you learn Japanese from your own PDFs and audio using
+            sentence-based flashcards, study plans, and review.
+          </p>
+        </div>
+
+        <h2>Contact</h2>
+        <p>
+          For bug reports, account-free app support, App Review questions, or
+          feature requests, contact:
+          <a href="mailto:xiaofeng.lei.bj@gmail.com">xiaofeng.lei.bj@gmail.com</a>
+        </p>
+
+        <h2>Common Support Topics</h2>
+        <ul>
+          <li>PDF or audio import issues</li>
+          <li>Flashcard generation and review problems</li>
+          <li>Source PDF or original media playback issues</li>
+          <li>Language, study plan, or review settings questions</li>
+          <li>App Store review and compliance follow-up</li>
+        </ul>
+
+        <h2>App Information</h2>
+        <div class="meta">
+          <strong>App Name</strong>
+          <span>Kotobi</span>
+          <strong>Platform</strong>
+          <span>iPhone / iOS</span>
+          <strong>Bundle ID</strong>
+          <span>com.jalearner.kotobi</span>
+          <strong>Developer</strong>
+          <span>Xiaofeng Lei</span>
+        </div>
+
+        <h2>Privacy</h2>
+        <p>
+          Kotobi is designed to keep user study data on device. When AI features
+          are used, requests go directly to the AI provider configured by the
+          user.
+        </p>
+      </div>
+    </main>
+  </body>
+</html>
